@@ -21,7 +21,7 @@ number()
 # ------ ACTIVITY 2 ------ #
 # not mine #
 
-​
+
 ghost_chars = [
     'Peter Venkman', 'Raymond Stantz', 'Egon Spengler',
     'Winston Zeddemore', 'Dana Barrett', 'Lenny Clotch',
@@ -31,7 +31,6 @@ ghost_chars = [
     'John Conner', 'Kyle Reece', 'Sarah Connor'
 ]
 hscore = 0
-​
 
 
 def ghost_game(char_list):
@@ -64,14 +63,13 @@ def ghost_game(char_list):
     return p_score
 
 
-​
 while True:
     score = ghost_game(ghost_chars)
     if score > hscore:
         print(f'New High Score!! {score} Points!')
         hscore = score
     else:
-        print(f'High Score remains at {previous_score} Points!')
+        print(f'High Score remains at  Points!')
     p_continue = input('Play again? Y | N')
     match p_continue.capitalize():
         case 'Y' | 'N':
