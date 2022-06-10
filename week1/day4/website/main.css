@@ -1,0 +1,89 @@
+#background {
+    background-color: rgb(59, 59, 59);
+}
+
+.margin {
+    margin: 150px;
+}
+
+/* Sets Size of Nav Buttons */
+.menubutt{
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+    /* box-shadow: rgba(63, 47, 47) 0px 20px 30px -10px;
+    background-color: rgb(59, 59, 59); */
+    transition: all .2s ease-in-out; 
+    }
+
+.menubutt:hover { 
+    transform: scale(1.1); 
+    }
+
+/* Navigation Structure */
+.navbar{
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    width: 110px;
+    justify-content: center;
+    position: fixed;
+    padding: 10px;
+    top: 0px;
+    background-color: rgba(31, 30, 30, 0.199);
+    box-shadow: rgba(0, 0, 0, 0.568) 0px 0px 10px 0.5px;
+    /* margin-top: -150px; */
+    margin-left: -8px;
+
+}
+
+.navbutton{
+    background: none;
+    border: none;
+    box-shadow: rgba(63, 47, 47) 0px 20px 30px -10px;
+    border-radius: 100px;
+}
+.navbutton a:hover{
+    filter: invert(100%);
+    transition: .5s;
+}
+
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(158, 158, 158);
+    text-align: left;
+    font-weight: bold;
+    /* margin-top: -100px; */
+    
+}
+
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(158, 158, 158);
+    text-align: left;
+    font-weight: bold;
+}
+
+.fmt{
+    height: 200px;
+    width: auto;
+    border-radius: 50px;
+    margin: 10px;
+    box-shadow: rgb(39, 39, 39) 0px 15px 25px -10px;
+    transition: all .5s ease-in-out;
+}
+
+.fmt:hover { 
+transform: scale(1.05); 
+}
+.doodleee {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content:center;
+    flex-grow: 1;
+
+
+  }
+
